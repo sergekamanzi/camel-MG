@@ -27,7 +27,7 @@
   
   .service-icons {
     font-size: 2.5rem;
-    color: #3a3a3a;
+    color: #40b99d;
     margin-bottom: 1rem;
   }
   
@@ -48,6 +48,7 @@
     cursor: pointer;
     font-weight: bold;
     text-decoration: underline;
+    font-size: 13px;
   }
   
   .read-more:hover {

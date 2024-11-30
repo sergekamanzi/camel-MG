@@ -27,7 +27,7 @@
   .main-about {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 2rem;
   }
@@ -41,12 +41,22 @@
     font-size: 1.1rem;
     line-height: 1.6;
     color: #333;
+    text-align: justify;
   }
   
   .social-icons {
     display: flex;
     gap: 1rem;
     margin-top: 1.5rem;
+  }
+
+  .social-icons .instagram{
+    color: rgb(214, 9, 9);
+  }
+    
+  
+  .social-icons .youtube{
+    color: rgb(34, 57, 173);
   }
   
   .social-icons svg {
@@ -69,9 +79,7 @@
     width: 90%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-top-left-radius:150px;
-    border-bottom-right-radius:150px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
   }
   
   /* Responsive Styles */
@@ -115,6 +123,10 @@
     h2 {
       font-size: 1.5rem;
     }
+    .photo img{
+        margin-top: -30px;
+        margin-left: 12px;
+    }
   }
   
   /* Extra small screens */
@@ -139,6 +151,10 @@
 
     .text{
         margin-top: -30px;
+    }
+    .photo img{
+        margin-top: -30px;
+        margin-left: 12px;
     }
   }
   

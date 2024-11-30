@@ -13,13 +13,13 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Change image every 3 seconds
+    }, 5000); // Change image every 5 seconds
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div
-      className='main-hero'
+      className='simple-hero'
       style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
     >
       <div className='header-text'>
