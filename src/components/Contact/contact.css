@@ -14,7 +14,7 @@ body {
   }
   
   .contact-container {
-    background: linear-gradient(to bottom, #187bff, #cce0ff);
+    background: linear-gradient(to bottom, #166350, #cce0ff);
     color: white;
     padding: 30px;
     border-radius: 10px;
@@ -28,7 +28,7 @@ body {
 
   .contact-form h3 {
     font-size: 30px;
-    color: #1b55a1;
+    color: rgb(55, 106, 55);
   }
   
   .contact-container h3, .contact-container h5 {
@@ -94,7 +94,7 @@ body {
   
   .send-button {
     padding: 10px 20px;
-    background-color: #187bff;
+    background-color: rgb(55, 106, 55);
     color: white;
     width: 70%;
     border: none;
@@ -131,6 +131,9 @@ body {
 
     .names input {
       width: 70%;
+    }
+    .contact-container{
+      height: 450px;
     }
   }
   

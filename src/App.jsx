@@ -6,20 +6,22 @@ import Technology from './components/Technology/tech'
 import Blog from './components/Blog/blog'
 import Donate from './components/Donate/donate'
 import Contact from './components/Contact/contact'
+import Footer from './components/Footer/footer'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <Service/>
-      <About/>
-      <Technology/>
-      <Blog/>
-      <Donate/>
-      <Contact/>
+              <Navbar/>
+              <Hero/>
+              <Service/>
+              <About/>
+              <Technology/>
+              <Blog/>
+              <Donate/>
+              <Contact/>
+              <Footer/>
     </>
   )
 }

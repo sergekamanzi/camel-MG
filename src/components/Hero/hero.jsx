@@ -24,7 +24,7 @@ const Hero = () => {
     >
       <div className='header-text'>
         <h5>Sewage treatment works</h5>
-        <h1>Treating sewage before it is released<br /> into the environment</h1>
+        <h1>Treating sewage <br />before it is released into the environment</h1>
       </div>
       <div className='start-now'>
         <button>Booking service</button>
