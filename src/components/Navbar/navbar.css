@@ -41,6 +41,7 @@
 
   .nav-links ul li a:hover{
       text-decoration: underline;
+      color: rgb(190, 190, 190);
   }
   
   .menu-icon {
@@ -109,6 +110,7 @@
     .logo img {
       width: 112px;
       height: 100px;
+      margin-left: 5px;
     }
 
     .nav-links ul{

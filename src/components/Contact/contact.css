@@ -123,6 +123,8 @@ body {
   @media (max-width: 480px) {
     .contact-container {
       text-align: center;
+      height: 450px;
+      margin-top: -45px;
     }
   
     .social-icons {
@@ -131,9 +133,6 @@ body {
 
     .names input {
       width: 70%;
-    }
-    .contact-container{
-      height: 450px;
     }
   }
   

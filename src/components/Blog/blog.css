@@ -82,7 +82,18 @@
     }
   
     .main-blog h2 {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
+    }
+
+    .main-blog h2::after{
+      content: '';
+      position: absolute;
+      width: 60px;
+      height: 4px;
+      background-color: #007bff;
+      top: 90px;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
   
