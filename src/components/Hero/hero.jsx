@@ -1,33 +1,55 @@
 import './hero.css';
 import { useState, useEffect } from 'react';
 
-const images = [
-  '../public/hero1.jpg',
-  '../public/hero2.jpg',
-  '../public/hero3.jpg'
+const slides = [
+  {
+    image: '../public/hero2.jpg',
+    title: 'Sewage treatment works',
+    subtitle: 'Treating sewage before it is released into the environment',
+    buttonText: 'Booking service'
+  },
+  {
+    image: '../public/hero3.jpg',
+    title: 'Water Purification Systems',
+    subtitle: 'Ensuring clean water for communities is our priority',
+    buttonText: 'Donate now'
+  }
 ];
 
 const Hero = () => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Change image every 5 seconds
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
+    }, 5000); // Change slide every 5 seconds
     return () => clearInterval(interval);
   }, []);
+
+  const handleDotClick = (index) => {
+    setCurrentIndex(index);
+  };
 
   return (
     <div
       className='simple-hero'
-      style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
+      style={{ backgroundImage: `url(${slides[currentIndex].image})` }}
     >
       <div className='header-text'>
-        <h5>Sewage treatment works</h5>
-        <h1>Treating sewage <br />before it is released into the environment</h1>
+        <h5>{slides[currentIndex].title}</h5>
+        <h1>{slides[currentIndex].subtitle}</h1>
       </div>
       <div className='start-now'>
-        <button>Booking service</button>
+        <button>{slides[currentIndex].buttonText}</button>
+      </div>
+      <div className='dots'>
+        {slides.map((_, index) => (
+          <span
+            key={index}
+            className={`dot ${index === currentIndex ? 'active' : ''}`}
+            onClick={() => handleDotClick(index)}
+          ></span>
+        ))}
       </div>
     </div>
   );

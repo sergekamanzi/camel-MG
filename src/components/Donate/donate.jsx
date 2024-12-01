@@ -4,7 +4,7 @@ const donate = () => {
   return (
     <div className='main-donate'>
        <div className='donate-button'>
-           <button>Donate</button>
+           <button>Donate now</button>
        </div>
     </div>
   )

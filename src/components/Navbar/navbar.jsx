@@ -22,7 +22,6 @@ const Navbar = () => {
           <li><a href="">About us</a></li>
           <li><a href="">Equipment & Technology</a></li>
           <li><a href="">Blog</a></li>
-          <li><a href="">Testimonials</a></li>
           <li><a href="">Contact Us</a></li>
         </ul>
       </div>

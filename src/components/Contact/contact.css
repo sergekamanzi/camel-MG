@@ -1,8 +1,5 @@
-/* General styles */
-body {
-    font-family: 'Arial', sans-serif;
-  }
   
+
   .main-contact {
     display: flex;
     justify-content: space-between;
@@ -11,6 +8,7 @@ body {
     gap: 40px;
     margin: 0 auto;
     max-width: 1200px;
+   
   }
   
   .contact-container {
@@ -101,6 +99,10 @@ body {
     border-radius: 0px;
     font-size: 16px;
     cursor: pointer;
+  }
+
+  .send-button:hover{
+    background-color: #0056b3;
   }
   
   /* Responsive styles */

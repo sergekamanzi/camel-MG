@@ -16,7 +16,7 @@
     color: #fff; /* White text */
     border: none;
     font-size: 1.2rem; /* Larger, readable font size */
-    font-weight: bold; /* Bold text for emphasis */
+    /*font-weight: bold;  Bold text for emphasis */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
     background-color: rgb(55, 106, 55);
     padding: 0.5rem 1rem;
