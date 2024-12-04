@@ -3,7 +3,7 @@ import truckfit from '/truck2.jpg';
 
 const Tech = () => {
   return (
-    <div className='main-tech'>
+    <div className='main-tech' id='technology'>
       <h2>Equipment & Technology</h2>
       <div className='tech-box'>
         <div className='img-tech'>

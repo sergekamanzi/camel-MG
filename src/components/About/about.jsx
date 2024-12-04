@@ -7,7 +7,7 @@ import { FaFacebook } from "react-icons/fa";
 
 const about = () => {
   return (
-    <div className='main'>
+    <div className='main' id='about'>
         <h2>About Us</h2>
         <div className='main-about'>
               <div className='text'>

@@ -8,7 +8,7 @@ import blog6 from '/blog6.jpg'
 
 const blog = () => {
   return (
-    <div className='main-blog'>
+    <div className='main-blog' id='blog'>
         <h2>Blog</h2>
       <div className='blog-container'>
          <div className='blog-box'>

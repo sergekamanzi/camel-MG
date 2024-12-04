@@ -31,7 +31,7 @@ const Hero = () => {
   };
 
   return (
-    <div
+    <div id='hero'
       className='simple-hero'
       style={{ backgroundImage: `url(${slides[currentIndex].image})` }}
     >

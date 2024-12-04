@@ -17,7 +17,7 @@ const Service = () => {
   };
 
   return (
-    <div>
+    <div id='service'>
         <h2>Services</h2>
     <div className='main-service'>
         <div className='services'>
